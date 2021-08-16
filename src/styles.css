@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #63ffd0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  font-size: 2rem;
+  background-color: var(--primary-color);
+}
+
+.purchase-price {
+  padding: 1rem;
+}
+
+.units {
+  padding: 1rem;
+}
+
+.current-price {
+  padding: 1rem;
+}
+
+.check {
+  padding: 1rem;
+}
+
+.result {
+  padding: 1rem;
+}
