@@ -1,33 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive&display=swap");
 :root {
-  --primary-color: #63ffd0;
+  --primary-color: #10b981;
+  --text-color: black;
 }
 
 .App {
-  font-family: sans-serif;
+  font-family: "Cutive", serif;
   text-align: center;
+  background-color: white;
 }
 
+.ow {
+  background-color: black;
+  color: var(--primary-color);
+  border-radius: 2rem;
+}
+.color-inverted {
+  color: var(--primary-color);
+}
+
+.alt-color {
+  color: black;
+}
+
+img {
+  width: 350px;
+}
+
+/* INPUT */
+
+input {
+  padding: 0.5rem;
+}
+
+/* CONTAINER */
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-left {
+  text-align: left;
+  margin: auto;
+}
+
+.container-right {
+  text-align: right;
+  margin: auto;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
 .header {
   font-size: 2rem;
+  font-weight: bold;
   background-color: var(--primary-color);
 }
 
 .purchase-price {
   padding: 1rem;
+  font-size: large;
+  font-weight: bold;
 }
 
 .units {
   padding: 1rem;
+  font-size: large;
+  font-weight: bold;
 }
 
 .current-price {
   padding: 1rem;
+  font-size: large;
+  font-weight: bold;
 }
 
 .check {
   padding: 1rem;
 }
 
+/*BUTTON*/
+button {
+  background-color: var(--primary-color);
+  font-size: large;
+  width: 200px;
+  color: black;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
 .result {
   padding: 1rem;
+  height: 2rem;
+  font-size: x-large;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  text-align: center;
+  color: black;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+.footer-header {
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.footer .link {
+  color: black;
+  font-weight: bold;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }
