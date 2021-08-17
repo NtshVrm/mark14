@@ -109,32 +109,8 @@ button {
 
 .result {
   padding: 1rem;
-  height: 2rem;
   font-size: x-large;
-  background-color: var(--primary-color);
-  border-radius: 1rem;
+  color: var(--primar-color);
 }
 
-/* FOOTER */
-.footer {
-  background-color: var(--primary-color);
-  padding: 1rem 1rem;
-  text-align: center;
-  color: black;
-  border-radius: 1rem;
-  font-size: 1.5rem;
-}
-.footer-header {
-  font-size: 1.5rem;
-  text-align: center;
-  font-style: italic;
-}
 
-.footer .link {
-  color: black;
-  font-weight: bold;
-}
-
-.footer ul {
-  padding-inline-start: 0px;
-}
